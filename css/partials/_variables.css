@@ -13,7 +13,7 @@ html, body{
     --primary-color2: #324854;
     --title-color: ##102e46;
     --text-color: #324854;  
-    --border-color: #201f1f17;  
+    --border-color: #ffffff;  
     --gradient-color: linear-gradient(90deg, #102e46 0%, #324854 100%);
     --shadow-color:  0px 10px 30px rgba(118, 85, 225, 0.3);
     --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
