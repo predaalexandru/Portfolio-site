@@ -42,12 +42,12 @@
 
 /* Banner Area */ 
 
-.site-main .site-banner .site-title h3{
+.site_main .site_banner .site-title h3{
     padding-top: 35%;
     font-weight: 500;
 }
 
-.site-main .site-banner .site-title h3::after{
+.site_main .site_banner .site-title h3::after{
     content: " ";
     height: 2px;
     width: 18vw;
@@ -57,15 +57,15 @@
     transform: translateY(-10px);
 }
 
-.site-main .site-banner .site-title h1{
+.site_main .site_banner .site-title h1{
     font-size: 5rem;
 }
 
-.site-main .site-banner .site-title h4{
+.site_main .site_banner .site-title h4{
     font-size: 1.5rem;
 }
 
-.site-main .site-banner .banner-image > img{
+.site_main .site_banner .banner-image > img{
     padding: 7rem 0;
     width: 90rem;
 }
@@ -74,17 +74,17 @@
 
 /* Start About Area */ 
 
-.site-main .about-area{
+.site_main .about_area{
     padding: 8rem 5rem;
 }
 
-.site-main .about-area .about-title h2 > span{
+.site_main .about_area .about-title h2 > span{
     display: block;
     font: normal bold 49px/ 60px var(--roboto);
     letter-spacing: 21px;
 }
 
-.site-main .about-area .about-title .paragraph > p{
+.site_main .about_area .about-title .paragraph > p{
     padding: .4rem 0;
 }
 
@@ -92,17 +92,17 @@
 
 /* Start Brand Area */ 
 
-.site-main .brand-area{
+.site_main .skill_area{
     padding: 1rem 20rem;
     margin-bottom: 4rem;
 }
 
-.site-main .brand-area .first-row .col-lg-4{
+.site_main .skill_area .first-row .col-lg-4{
     display: flex;
     justify-content: center;
 }
 
-.site-main .brand-area .first-row .col-lg-4 > .single-brand{
+.site_main .skill_area .first-row .col-lg-4 > .single_skill{
     border: 1px solid var(--border-color);
     text-align: center;
     padding: 1.8rem 0rem;
@@ -113,24 +113,24 @@
     transition: transform .4s ease;
 }
 
-.site-main .brand-area .first-row .col-lg-4 > .single-brand > img{
+.site_main .skill_area .first-row .col-lg-4 > .single_skill > img{
     width: 50%;
 }
 
-.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover{
+.site_main .skill_area .first-row .col-lg-4 > .single_skill:hover{
     box-shadow: var(--box-shadow);
     transform: scale(1.1);
 }
 
-.site-main .brand-area .experience-area{
+.site_main .skill_area .experience-area{
     padding-left: 1rem;
 }
 
-.site-main .brand-area .experience-area span{
+.site_main .skill_area .experience-area span{
     display: block;
 }
 
-.site-main .brand-area .experience-area .years-area{
+.site_main .skill_area .experience-area .years-area{
     padding: 2rem 0;
     width: 40rem;
     height: 18rem;
@@ -138,7 +138,7 @@
     position: relative;
 }
 
-.site-main .brand-area .experience-area .bg-panel{
+.site_main .skill_area .experience-area .bg-panel{
     position: absolute;
     left: -190px; top: 0%;
     background: #e742420a;
@@ -148,17 +148,17 @@
     z-index: -1;
 }
 
-.site-main .brand-area .experience-area .years-area .years{
+.site_main .skill_area .experience-area .years-area .years{
     font: normal bold 84px/40px var(--roboto);
     color: var(--primary-color2);
     z-index: 2;
 }
 
-.site-main .brand-area .experience-area .years-area h2 > span{
+.site_main .skill_area .experience-area .years-area h2 > span{
     font: normal 600 22px/30px var(--roboto);
 }
 
-.site-main .brand-area .experience-area .call-area{
+.site_main .skill_area .experience-area .call-area{
     padding-left: 8rem;
 }
 
@@ -166,19 +166,19 @@
 
 /* Services Area */ 
 
-.site-main .services-area{
+.site_main .services_area{
     padding: 7rem 2rem;
 }
 
-.site-main .services-area .services-title{
+.site_main .services_area .services-title{
     padding: 0 14rem;
 }
 
-.site-main .services-area .services-title h1{
+.site_main .services_area .services-title h1{
     font-size: 35px;
 }
 
-.site-main > .services-area .services{
+.site_main > .services_area .services{
     background: rgba(248, 252, 253, 0.973);
     padding: 2rem 0;
     width: 16rem;
@@ -186,8 +186,35 @@
     transition: box-shadow .7s ease;
 }
 
-.site-main > .services-area .services:hover{
+.site_main > .services_area .services:hover{
     box-shadow: var(--box-shadow);
 }
 
 /* End Services Area */ 
+
+/* Projects Area */ 
+.site_main .project_area{
+    padding: 4rem 0;
+}
+
+.site_main .project_area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.site_main .project_area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site_main .project_area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--roboto);
+}
+
+.site_main .project_area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+
+/* End Projects Area */ 
